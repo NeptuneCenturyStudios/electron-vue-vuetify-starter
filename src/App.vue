@@ -1,9 +1,34 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+
+  <v-app>
+    <v-layout>
+      <v-app-bar color="primary" prominent>
+        <v-toolbar-title>My files</v-toolbar-title>
+
+        <v-spacer></v-spacer>
+
+        <v-btn variant="text" to="/">
+          <v-icon right dark>
+            mdi-home
+          </v-icon>
+          Home
+        </v-btn>
+        
+        <v-btn variant="text" to="/about">
+          <v-icon right dark>
+            mdi-information-outline
+          </v-icon>
+          About
+        </v-btn>
+
+      </v-app-bar>
+
+      <v-main>
+        <router-view />
+      </v-main>
+    </v-layout>
+  </v-app>
+
 </template>
 
 <style lang="scss">

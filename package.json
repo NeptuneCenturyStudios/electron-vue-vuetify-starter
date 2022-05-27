@@ -1,8 +1,8 @@
 {
-  "name": "electron-vuetify-starter",
+  "name": "electron-vue-vuetify-starter",
   "version": "0.1.0",
   "private": false,
-  "description": "A starter app to build your own Electron Vue apps.",
+  "description": "A starter app to build your own Electron Vue apps with Vuetify UI.",
   "main": "main.js",
   "author": "Eric Butler",
   "license": "MIT",
@@ -16,7 +16,9 @@
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^3.2.13",
-    "vue-router": "^4.0.13"
+    "vue-router": "^4.0.13",
+    "@mdi/font": "^6.6.96",
+    "vuetify": "^3.0.0-beta.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
