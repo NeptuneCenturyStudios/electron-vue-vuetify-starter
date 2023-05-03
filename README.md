@@ -1,30 +1,20 @@
 # electron-vue-vuetify-starter
 
-This template uses Electron, Vue 3, and Vuetify 3 to create powerful cross-platform desktop apps. Vue router is also included. The Vue app is generated with the Vue CLI and the directory structure is unchanged. Electron is installed on top of it and everything is set up to run the Vue app inside Electron.
+This template uses Electron, Vue 3 + Electron Builder, and Vuetify 3 to create powerful cross-platform desktop apps. Vue router is also included. The Vue app is generated with the Vue CLI and the directory structure is unchanged. Electron is installed on top of it and everything is set up to run the Vue app inside Electron.
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and watches files for changes
+### Serves the electron app and watches files for changes
 ```
-npm run watch
+npm run electron:serve
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
-```
-
-### Runs Electron app
-```
-npm run start
-```
-
-### Lints and fixes files
-```
-npm run lint
+npm run electron:build
 ```
 
 ### Customize configuration
